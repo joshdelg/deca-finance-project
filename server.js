@@ -29,7 +29,7 @@ app.use(session({
     store: new MongoStore({
         mongooseConnection: mongoose.connection
     })
-    /* cookie: {    ** Only works with HTTPS **
+    /* cookie: {    !! Only works with HTTPS !
         secure: true
     } */
 }));
@@ -44,6 +44,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 // Routes
 app.use('/', require('./routes/index'));
 app.use('/auth', require('./routes/auth'));
+app.use('/modules', require('./routes/modules'));
 
 const port = process.env.PORT || 5001;
 
