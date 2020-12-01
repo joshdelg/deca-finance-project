@@ -1,0 +1,26 @@
+.splash {
+    height: 100vh;
+    background-color: #ECF39E;
+}
+
+nav {
+    filter: opacity(0.75);
+}
+
+.flex {
+    display: flex;
+}
+
+.headers {
+    margin: auto;
+}
+
+.image img {
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+
+.main-action {
+    margin: 2rem 0;
+}
