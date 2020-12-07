@@ -1,10 +1,15 @@
 .splash {
-    height: 100vh;
     background-color: #ECF39E;
+    height: 100vh;
 }
 
 nav {
-    filter: opacity(0.75);
+    background-color: initial !important;
+    box-shadow: none !important;
+}
+
+nav a {
+    color: #000000 !important;
 }
 
 .flex {
@@ -23,4 +28,19 @@ nav {
 
 .main-action {
     margin: 2rem 0;
+}
+
+.flex2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.youtube-link {
+    color: #132A13;
+    font-size: 5rem;
+}
+
+hr {
+    border-color: #132A13;
 }
