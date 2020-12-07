@@ -1,8 +1,3 @@
-.splash {
-    background-color: #ECF39E;
-    height: 100vh;
-}
-
 nav {
     background-color: initial !important;
     box-shadow: none !important;
@@ -37,7 +32,7 @@ nav a {
 }
 
 .youtube-link {
-    color: #132A13;
+    color: #4F772D;
     font-size: 5rem;
 }
 
