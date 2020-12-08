@@ -12,7 +12,15 @@ module.exports = function(passport) {
         const newUser = {
             googleId: profile.id,
             displayName: profile.displayName,
-            image: profile.photos[0].value
+            image: profile.photos[0].value,
+            modules: [
+                {
+                    moduleId: 0
+                },
+                {
+                    moduleId: 1
+                }
+            ]
         };
 
         try {

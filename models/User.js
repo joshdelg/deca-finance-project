@@ -1,5 +1,17 @@
 const mongoose = require('mongoose');
 
+const UserModuleSchema = new mongoose.Schema({
+    moduleId: {
+        type: Number,
+        required: true
+    },
+    complete: {
+        type: Boolean,
+        required: true,
+        default: false
+    }
+});
+
 const UserSchema = new mongoose.Schema({
     googleId: {
         type: String,
@@ -11,6 +23,9 @@ const UserSchema = new mongoose.Schema({
     },
     image: {
         type: String,
+    },
+    modules: {
+        type: [UserModuleSchema]
     },
     createdAt: {
         type: Date,

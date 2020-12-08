@@ -14,9 +14,18 @@ router.get('/', ensureGuest, (req, res) => {
 // @desc Dashboard
 // @route GET /dashboard
 router.get('/dashboard', (req, res) => {
+
+    modules.forEach((mod, i) => {
+        if(req.user.modules[i]) {
+            mod.completed = req.user.modules[i].complete
+        } else {
+            mod.completed = false;
+        }
+    });
+
     res.render('dashboard', {
         name: req.user.displayName.split(' ')[0],
-        modules: modules
+        modules: modules,
     });
 });
 

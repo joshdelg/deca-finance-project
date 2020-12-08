@@ -1,7 +1,11 @@
 <div class="{{module.color}} lighten-3">&nbsp;</div>
 <!-- Can swap for image cards-->
-<div class="card hoverable">
-    <span class="badge {{module.color}} lighten-3">4 unopened</span>
+<div class="card {{#if module.completed}}z-depth-0 grey lighten-4{{else}}hoverable{{/if}}">
+    {{#if module.completed}}
+    <span class="badge {{module.color}} lighten-3">Complete!</span>
+    {{else}}
+    <span class="badge {{module.color}} lighten-3">Incomplete</span>
+    {{/if}}
     <div class="card-content">
         <span class="card-title">{{module.name}}</span>
         <p>{{module.description}}</p>
@@ -9,5 +13,4 @@
     <div class="card-action">
         <a class="btn {{module.color}}" href="/modules/{{module.id}}">Enter</a>
     </div>
-    <!-- Add progress bar too-->
 </div>
