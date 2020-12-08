@@ -39,3 +39,12 @@ nav a {
 hr {
     border-color: #132A13;
 }
+
+.vid-container {
+    height: 100%;
+}
+
+.vid-container iframe {
+    height: 100%;
+    margin: auto;
+}
