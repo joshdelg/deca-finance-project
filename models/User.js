@@ -1,5 +1,15 @@
 const mongoose = require('mongoose');
 
+const QuestionSchema = new mongoose.Schema({
+    started: {
+        type: Boolean,
+        default: false
+    },
+    answer: {
+        type: Number
+    }
+});
+
 const UserModuleSchema = new mongoose.Schema({
     moduleId: {
         type: Number,
@@ -9,6 +19,9 @@ const UserModuleSchema = new mongoose.Schema({
         type: Boolean,
         required: true,
         default: false
+    },
+    questions: {
+        type: [QuestionSchema]
     }
 });
 
