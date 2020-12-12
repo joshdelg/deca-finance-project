@@ -21,8 +21,11 @@ require('./config/passport')(passport);
 
 connectDB();
 
+// Handlebars Helpers
+const { checkQuestion, correctOrWrong } = require('./helpers/hbs');
+
 // Handlebars
-app.engine('.hbs', exphbs({defaultLayout: 'main', extname: '.hbs'}));
+app.engine('.hbs', exphbs({helpers: {checkQuestion, correctOrWrong}, defaultLayout: 'main', extname: '.hbs'}));
 app.set('view engine', '.hbs');
 
 // Sessions

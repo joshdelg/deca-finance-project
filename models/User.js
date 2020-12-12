@@ -7,6 +7,10 @@ const QuestionSchema = new mongoose.Schema({
     },
     answer: {
         type: Number
+    },
+    correct: {
+        type: Boolean,
+        default: false
     }
 });
 
