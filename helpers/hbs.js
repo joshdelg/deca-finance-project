@@ -6,8 +6,9 @@ module.exports = {
             return '';
         }
     },
-    correctOrWrong: function(started, ansVal, correctAns) {
-        if(started) {
+    correctOrWrong: function(userRes, ansVal, correctAns) {
+        console.log(userRes.correct);
+        if(userRes.correct) {
             if(ansVal == correctAns)
                 return '<span class="green badge white-text">Correct!</span>';
         }

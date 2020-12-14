@@ -1,9 +1,9 @@
-p {
-    margin: 10px 0 !important;
+.vocab {
+    text-decoration: underline;
+    background-color: #eeeeee;
+    transition: all ease-in-out 0.25s;
 }
 
-.login-container {
-    width: 50% !important;
-    text-align: center;
-    margin-top: 5rem !important;
+.vocab:hover {
+    background-color: #dddddd;
 }
