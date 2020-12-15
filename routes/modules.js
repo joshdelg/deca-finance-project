@@ -12,7 +12,7 @@ router.get('/:moduleId', (req, res) => {
         qs.forEach((q) => {
             userRes.push({started: q.started, answer: q.answer, correct: q.correct});
         })
-        console.log(userRes[0]);
+
         res.render('module', {
             module: modules[req.params.moduleId],
             userRes: userRes,
@@ -36,7 +36,6 @@ router.post('/submit', async(req, res) => {
     userFound.modules[req.body.moduleId].questions = newQuestions;
     userFound.modules[req.body.moduleId].complete = true;
     userFound.save();
-    console.log(userFound.modules[0]);
 
     res.redirect('/dashboard');
 });

@@ -14,7 +14,7 @@ module.exports = [
             ]
         }
     },
-    {
+    /*{
         id: 1,
         name: "Module 2",
         description: "Hello everyone my name is Josh",
@@ -43,5 +43,5 @@ module.exports = [
         name: "Module 6",
         description: "Hello this is module 3's description",
         color: "yellow"
-    }
+    }*/
 ]
