@@ -1,3 +1,75 @@
+@font-face {
+    font-family: 'CALPS';
+    src: local('CALPS Light'), local('CALPS-Light'),
+        url('/fonts/Calps-Light.woff2') format('woff2'),
+        url('/fonts/Calps-Light.woff') format('woff'),
+        url('/fonts/Calps-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Dimbo';
+    src: url('/fonts/dimbo_regular-webfont.woff2') format('woff2'),
+         url('/fonts/dimbo_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.brand-logo {
+    font-family: 'Dimbo';
+    font-size: 2.5rem !important;
+    letter-spacing: 3px;
+}
+
+.right li a {
+    font-family: 'CALPS';
+    font-size: 1.5rem !important;
+}
+
+h1 {
+    font-family: 'Dimbo';
+}
+
+h2 {
+    font-family: 'Dimbo';
+}
+
+h3 {
+    font-family: 'Dimbo';
+}
+
+form {
+    font-family: 'CALPS';
+}
+
+form p span {
+    font-size: 1.5rem !important;
+}
+
+form input[type="submit"] {
+    font-family: 'CALPS';
+}
+.card-title {
+    font-family: 'Dimbo';
+    font-size: 2rem !important;
+}
+
+.card-content {
+    font-family: 'CALPS';
+    font-size: 1.75rem;
+}
+
+.btn {
+    font-family: 'CALPS';
+    font-size: 1.25rem !important;
+}
+
+.flow-text {
+    font-family: 'CALPS', sans-serif;
+}
+
 .vocab {
     text-decoration: underline;
     background-color: #eeeeee;

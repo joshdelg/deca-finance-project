@@ -1,9 +1,48 @@
+@font-face {
+    font-family: 'CALPS';
+    src: local('CALPS Light'), local('CALPS-Light'),
+        url('/fonts/Calps-Light.woff2') format('woff2'),
+        url('/fonts/Calps-Light.woff') format('woff'),
+        url('/fonts/Calps-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Dimbo';
+    src: url('/fonts/dimbo_regular-webfont.woff2') format('woff2'),
+         url('/fonts/dimbo_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.brand-logo {
+    font-family: 'Dimbo';
+    font-size: 2.5rem !important;
+    letter-spacing: 3px;
+}
+
+.right li a {
+    font-family: 'CALPS';
+    font-size: 1.5rem !important;
+}
+
 .flex {
     display: flex;
 }
 
 .headers {
     margin: auto;
+}
+
+.headers h1 {
+    font-family: 'Dimbo';
+}
+
+.headers h5 {
+    font-size: 2.25rem;
+    font-family: 'CALPS', sans-serif !important;
 }
 
 .image img {
@@ -14,6 +53,8 @@
 
 .main-action {
     margin: 2rem 0;
+    font-family: 'CALPS', sans-serif !important;
+    font-size: 1.5rem !important;
 }
 
 .flex2 {
@@ -22,9 +63,14 @@
     align-items: center;
 }
 
+h4 {
+    font-family: 'Dimbo';
+    font-size: 2.75rem !important;
+}
+
 .youtube-link {
     color: #4F772D;
-    font-size: 5rem;
+    font-family: 'CALPS', sans-serif !important;
 }
 
 hr {
@@ -38,4 +84,18 @@ hr {
 .vid-container iframe {
     height: 100%;
     margin: auto;
+}
+
+.row h3 {
+    font-family: 'Dimbo';
+}
+
+.row h5 {
+    font-size: 2rem;
+    font-family: 'CALPS', sans-serif;
+}
+
+.row p {
+    font-size: 1.5rem;
+    font-family: 'CALPS', sans-serif;
 }
