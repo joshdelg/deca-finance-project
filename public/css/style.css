@@ -50,6 +50,8 @@ form p span {
 
 form input[type="submit"] {
     font-family: 'CALPS';
+    font-size: 1.75rem;
+    padding: 0 1rem;
 }
 .card-title {
     font-family: 'Dimbo';
