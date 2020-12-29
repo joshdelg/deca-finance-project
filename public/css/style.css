@@ -79,3 +79,7 @@ form input[type="submit"] {
 .vocab:hover {
     background-color: #dddddd;
 }
+
+.bottom-btn {
+    margin: 1.5rem 0;
+}

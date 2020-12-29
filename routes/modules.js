@@ -37,7 +37,7 @@ router.post('/submit', async(req, res) => {
     userFound.modules[req.body.moduleId].complete = true;
     userFound.save();
 
-    res.redirect('/dashboard');
+    res.redirect(`/modules/${req.body.moduleId}`);
 });
 
 module.exports = router;
