@@ -50,6 +50,32 @@
                         <span>{{questions.[1].answers.[1]}}{{{correctOrWrong userRes.[1] "1" questions.[1].correctAns}}}</span>
                     </label>
                 </p>
+                <h5>{{questions.[2].text}}</h5>
+                <p>
+                    <label for="q31">
+                        <input type="radio" name="q3" id="q31" value="0" {{checkQuestion userRes.[2].answer "0"}}>
+                        <span>{{questions.[2].answers.[0]}}{{{correctOrWrong userRes.[2] "0" questions.[2].correctAns}}}</span>
+                    </label>
+                </p>
+                <p>
+                    <label for="q32">
+                        <input type="radio" name="q3" id="q32" value="1" {{checkQuestion userRes.[2].answer "1"}}>
+                        <span>{{questions.[2].answers.[1]}}{{{correctOrWrong userRes.[2] "1" questions.[2].correctAns}}}</span>
+                    </label>
+                </p>
+                <h5>{{questions.[3].text}}</h5>
+                <p>
+                    <label for="q41">
+                        <input type="radio" name="q4" id="q41" value="0" {{checkQuestion userRes.[3].answer "0"}}>
+                        <span>{{questions.[3].answers.[0]}}{{{correctOrWrong userRes.[3] "0" questions.[3].correctAns}}}</span>
+                    </label>
+                </p>
+                <p>
+                    <label for="q42">
+                        <input type="radio" name="q4" id="q42" value="1" {{checkQuestion userRes.[3].answer "1"}}>
+                        <span>{{questions.[3].answers.[1]}}{{{correctOrWrong userRes.[3] "1" questions.[3].correctAns}}}</span>
+                    </label>
+                </p>
                 <input type="hidden" name="moduleId" value="{{module.id}}">
                 <input class="submit-btn" type="submit" value="OK">
             </form>

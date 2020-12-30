@@ -15,6 +15,21 @@ module.exports = [
                     "It is safer than in a checking account", "You earn more interest than with a checking account"
                 ],
                 correctAns: 1
+            },
+            {
+                text: "Money in a savings account is ____ accessible than in the stock market",
+                answers: [
+                    "More", "Less"
+                ],
+                correctAns: 0
+            },
+            {
+                text: "Why is it important to start saving money early?",
+                answers: [
+                    "It sets you up for a financially secure future",
+                    "You're guaranteed to become a billionaire"
+                ],
+                correctAns: 0
             }
         ]
     },
