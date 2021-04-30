@@ -14,13 +14,22 @@ module.exports = [
             ]
         }
     },
-    /*{
+    {
         id: 1,
         name: "Module 2",
-        description: "Hello everyone my name is Josh",
-        color: "red"
-    },
-    {
+        description: "Growing your Savings",
+        color: "red",
+        videoURL: "https://www.youtube.com/embed/ud1lkXND8x8",
+        text: {
+            intro: "You've heard all about the wonders of investing and want to get started for yourself. Maybe you just want to have your own store of money. Either way, you don't want to wait until you turn 18 to have some freedom. So what's the solution? A custodial account!",
+            paragraphs: [
+                "A custodial account is really any type of financial account that one person opens and maintains for another person. In most cases, it’s a brokerage account or savings account that an adult controls for a child under the age of 18. Once the child is of age, he or she assumes ownership and can control the account how he or she wishes.",
+                "One of the most common types of custodial accounts is a Coverdell Education Savings Account (ESA). Parents or guardians can use a Coverdell ESA to save up for a child’s education while enjoying some tax benefits. Two other custodial accounts are UTMA and UGMA accounts. These accounts typically have fewer restrictions than an ESA.",
+                "One benefit of custodial accounts are that they are very easy to open. You can head to most brokerage firms, either in person or online, to set up the account. Popular firms like Fidelity, Charles Schwab and Ally all offer custodial accounts. As with any brokerage account, you’ll want to examine what kinds of fees are associated with the account before making your decision."
+            ]
+        }
+    }
+    /*{
         id: 2,
         name: "Module 3",
         description: "Hello this is module 3's description",

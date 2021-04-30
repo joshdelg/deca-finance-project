@@ -33,23 +33,38 @@ module.exports = [
             }
         ]
     },
-    /*{
+    {
         moduleId: 1,
         questions: [
             {
-                text: "This is the text of question 1 for mod 2!",
+                text: "What is a custodial account?",
                 answers: [
-                    "This is answer 1 (correct)", "this is answer 2!"
+                    "An account designed for quick access and frequent use", "An account one person opens for another person, typically an adult for a child."
+                ],
+                correctAns: 1
+            },
+            {
+                text: "Can the minor assume control of the custodial account when they turn 18?",
+                answers: [
+                    "Yes", "No"
                 ],
                 correctAns: 0
             },
             {
-                text: "This is question 2 mod 2 text",
+                text: "What is the primary purpose of a Coverdell ESA?",
                 answers: [
-                    "This is answer 1", "this is answer 2 for module 2 and is correct!"
+                    "To pay for medical expenses", "To pay for education"
+                ],
+                correctAns: 1
+            },
+            {
+                text: "True or false: Custodial accounts are typically very difficult to open.",
+                answers: [
+                    "True",
+                    "False"
                 ],
                 correctAns: 1
             }
         ]
-    }*/
+    },
 ]
